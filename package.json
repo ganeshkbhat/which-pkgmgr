@@ -1,7 +1,7 @@
 {
-  "name": "detect-package-manager",
+  "name": "which-pkgmgr",
   "version": "1.0.0",
-  "description": "detect default package manager in nodejs using detect-package-manager",
+  "description": "detect default package manager in nodejs using which-pkgmgr",
   "main": "index.js",
   "exports": {
     "require": "./index.js",
@@ -13,16 +13,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ganeshkbhat/detect-package-manager.git"
+    "url": "git+https://github.com/ganeshkbhat/which-pkgmgr.git"
   },
   "bugs": {
-    "url": "https://github.com/ganeshkbhat/detect-package-manager/issues"
+    "url": "https://github.com/ganeshkbhat/which-pkgmgr/issues"
   },
-  "homepage": "https://github.com/ganeshkbhat/detect-package-manager#readme",
+  "homepage": "https://github.com/ganeshkbhat/which-pkgmgr#readme",
   "scripts": {
     "test": "mocha --reporter spec --recursive --timeout 60000",
     "uglify": "uglifyjs --compress --mangle reserved=['$','require','exports'] index.js -o index.min.js",
-    "gitadd": "git add ."
+    "gitadd": "git add .",
+    "build": "tsc"
   },
   "pre-commit": {
     "run": [
