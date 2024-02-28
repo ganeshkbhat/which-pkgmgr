@@ -1,2 +1,9 @@
-# detect-package-manager
-detect default package manager in nodejs using detect-package-manager
+# which-pkgmgr
+detect default package manager in nodejs using which-pkgmgr
+
+
+### USAGE: 
+
+```
+```
+
