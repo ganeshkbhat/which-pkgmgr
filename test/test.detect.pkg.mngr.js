@@ -1,11 +1,11 @@
 /**
  * 
- * Package: 
+ * Package: which-pkgmgr
  * Author: Ganesh B
  * Description: 
- * Install: npm i  --save
- * Github: https://github.com/ganeshkbhat/
- * npmjs Link: https://www.npmjs.com/package/
+ * Install: npm i which-pkgmgr --save
+ * Github: https://github.com/ganeshkbhat/which-pkgmgr/
+ * npmjs Link: https://www.npmjs.com/package/which-pkgmgr/
  * File: index.js
  * File Description: 
  * 
